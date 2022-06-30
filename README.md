@@ -6,6 +6,6 @@ this py script will generate vbs dropper to run the dart shell in the background
 
 ![](Dirt-Hack.PNG)
 
-# How it Works
+# How VBS Dropper Works
 
 ![](Capture.PNG)
